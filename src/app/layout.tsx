@@ -16,11 +16,7 @@ export const metadata: Metadata = {
   title: "Gemini AI Assistant",
   description: "Professional AI chatbot powered by Google's Gemini model",
   keywords: ["AI", "Chatbot", "Gemini", "Google", "Assistant"],
-  authors: [{ name: "Gemini Chatbot" }],
-  icons: {
-    icon: "/icons/logo.svg",
-    apple: "/icons/logo.svg",
-  },
+  authors: [{ name: "kashyapkrlucky" }],
 };
 
 export const viewport = {
