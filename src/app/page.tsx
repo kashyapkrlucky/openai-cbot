@@ -106,7 +106,7 @@ export default function ChatBot() {
           {messages.length === 0 ? (
             <div className="text-center mt-16">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6">
-                <Image src="/icons/chat-icon.svg" alt="Chat" width={32} height={32} className="text-white" />
+                <Image src="/chat-icon.svg" alt="Chat" width={32} height={32} className="text-white" />
               </div>
               <h2 className="text-2xl font-bold text-gray-900 mb-2">Welcome to Gemini AI</h2>
               <p className="text-gray-600 max-w-md mx-auto">Start a conversation with Google&apos;s advanced AI. Ask questions, get creative, or explore new ideas.</p>
@@ -129,9 +129,9 @@ export default function ChatBot() {
                       message.role === 'user' ? 'bg-blue-800' : 'bg-gray-100'
                     }`}>
                       {message.role === 'user' ? (
-                        <Image src="/icons/user-avatar.svg" alt="User" width={16} height={16} className="text-blue-200" />
+                        <Image src="/user-avatar.svg" alt="User" width={16} height={16} className="text-blue-200" />
                       ) : (
-                        <Image src="/icons/ai-avatar.svg" alt="AI" width={16} height={16} className="text-gray-600" />
+                        <Image src="/ai-avatar.svg" alt="AI" width={16} height={16} className="text-gray-600" />
                       )}
                     </div>
                     <div className="flex-1 min-w-0">
@@ -173,7 +173,7 @@ export default function ChatBot() {
               <div className="bg-white text-gray-800 max-w-4xl px-6 py-4 rounded-2xl border border-gray-200 shadow-sm">
                 <div className="flex items-center space-x-3">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
-                    <Image src="/icons/ai-avatar.svg" alt="AI" width={16} height={16} className="text-gray-600" />
+                    <Image src="/ai-avatar.svg" alt="AI" width={16} height={16} className="text-gray-600" />
                   </div>
                   <div className="flex items-center space-x-2">
                     <div className="flex space-x-1">
@@ -193,7 +193,7 @@ export default function ChatBot() {
               <div className="bg-red-50 border border-red-200 text-red-800 px-6 py-4 rounded-2xl max-w-md shadow-sm">
                 <div className="flex items-center space-x-3">
                   <div className="flex-shrink-0">
-                    <Image src="/icons/error-icon.svg" alt="Error" width={20} height={20} className="text-red-600" />
+                    <Image src="/error-icon.svg" alt="Error" width={20} height={20} className="text-red-600" />
                   </div>
                   <div>
                     <p className="text-sm font-medium">Error</p>
@@ -224,7 +224,7 @@ export default function ChatBot() {
                 disabled={isLoading || !input.trim()}
                 className="absolute right-2 top-1/2 transform -translate-y-1/2 p-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
               >
-                <Image src="/icons/send-icon.svg" alt="Send" width={16} height={16} />
+                <Image src="/send-icon.svg" alt="Send" width={16} height={16} />
               </button>
             </div>
           </form>
