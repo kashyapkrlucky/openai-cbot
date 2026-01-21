@@ -17,11 +17,15 @@ export const metadata: Metadata = {
   description: "Professional AI chatbot powered by Google's Gemini model",
   keywords: ["AI", "Chatbot", "Gemini", "Google", "Assistant"],
   authors: [{ name: "Gemini Chatbot" }],
-  viewport: "width=device-width, initial-scale=1",
   icons: {
     icon: "/icons/logo.svg",
     apple: "/icons/logo.svg",
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
